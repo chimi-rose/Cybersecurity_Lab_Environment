@@ -22,6 +22,6 @@ My primary research is conducted in a virtualized, segregated environment:
 **Command:** `nmap -F scanme.nmap.org`, 'nmap -sV -T4 -p 22,80 scanme.nmap.org -oN nmap_scan_results.txt'
 
 ### Key Findings:
-* **SSH (Port 22):** Open. Identified as a potential remote access point. In a real-world scenario, this would be a high-priority target for brute-force auditing.
+* **SSH (Port 22):** Open. Identified as a potential remote access point. Identifying the specific OS running on this port (Ubunto 2, Ubuntu 2.13) allows for ruther investigation into potential vulnerabilities known to these versions.
 * **HTTP (Port 80):** Open. Confirmed a web server is running. 
 * **Filtered Ports:** 98 ports returned as `filtered`, indicating an active firewall or packet filter is protecting the host.
