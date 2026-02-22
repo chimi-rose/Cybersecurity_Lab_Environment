@@ -19,7 +19,7 @@ My primary research is conducted in a virtualized, segregated environment:
 
 ## Phase 1: Network Discovery (Nmap)
 **Target:** `scanme.nmap.org`  
-**Command:** `nmap -F scanme.nmap.org`
+**Command:** `nmap -F scanme.nmap.org`, 'nmap -sV -T4 -p 22,80 scanme.nmap.org -oN nmap_scan_results.txt'
 
 ### Key Findings:
 * **SSH (Port 22):** Open. Identified as a potential remote access point. In a real-world scenario, this would be a high-priority target for brute-force auditing.
