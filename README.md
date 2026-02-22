@@ -1,2 +1,27 @@
-# Cybersecurity_Lab_Environment
-Isolated virtual research environment for network discovery and vulnerability assessment.
+# Hello, I'm Chimé (Chimi) Lhamo 
+### Aspiring Cybersecurity Analyst
+
+I am a security-focused CIS major college graduate currently building a hands-on research laboratory to simulate real-world attack and defense scenarios.
+
+## Connect with me:
+www.linkedin.com/in/chimi-rlhamo
+
+---
+
+## My Lab Environment
+My primary research is conducted in a virtualized, segregated environment:
+* **Hypervisor:** VirtualBox
+* **Attacker:** Kali Linux
+* **Network:** Isolated NAT Network (10.0.2.0/24)
+* **Goal:** Documentation of vulnerability research and network auditing.
+
+---
+
+## Phase 1: Network Discovery (Nmap)
+**Target:** `scanme.nmap.org`  
+**Command:** `nmap -F scanme.nmap.org`
+
+### Key Findings:
+* **SSH (Port 22):** Open. Identified as a potential remote access point. In a real-world scenario, this would be a high-priority target for brute-force auditing.
+* **HTTP (Port 80):** Open. Confirmed a web server is running. 
+* **Filtered Ports:** 98 ports returned as `filtered`, indicating an active firewall or packet filter is protecting the host.
