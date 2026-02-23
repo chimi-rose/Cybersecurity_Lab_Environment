@@ -11,9 +11,9 @@ www.linkedin.com/in/chimi-rlhamo
 ## My Lab Environment
 My primary research is conducted in a virtualized, segregated environment:
 * **Hypervisor:** VirtualBox
-* **Attacker:** Kali Linux
+* **Attacker:** Kali Linux 10.0.2.15
+* **Victim:** Metasploitable 2
 * **Network:** Isolated NAT Network 'SecurityLab' (10.0.2.0/24). This segmentation ensures that the host router is protected from any malicious script that escapes from the VM environment.
-* **Attacker IP (Kali):** 10.0.2.15
 * **Goal:** Documentation of vulnerability research and network auditing.
 
 ---
